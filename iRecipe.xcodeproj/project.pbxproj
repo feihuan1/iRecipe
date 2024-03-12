@@ -11,6 +11,18 @@
 		E15CF0B22B9D38060043589B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15CF0B12B9D38060043589B /* ContentView.swift */; };
 		E15CF0B42B9D38070043589B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E15CF0B32B9D38070043589B /* Assets.xcassets */; };
 		E15CF0B72B9D38070043589B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E15CF0B62B9D38070043589B /* Preview Assets.xcassets */; };
+		E15CF0C22B9D3A030043589B /* RecipeContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E15CF0C02B9D3A030043589B /* RecipeContainer.xcdatamodeld */; };
+		E15CF0C62B9D5A260043589B /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15CF0C52B9D5A260043589B /* CoreDataManager.swift */; };
+		E15CF0C82B9D5D8D0043589B /* DataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15CF0C72B9D5D8D0043589B /* DataViewModel.swift */; };
+		E15CF0CA2B9D74050043589B /* DebugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15CF0C92B9D74050043589B /* DebugView.swift */; };
+		E15CF0CC2B9D7A770043589B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15CF0CB2B9D7A770043589B /* HomeView.swift */; };
+		E15CF0CE2B9D7A9A0043589B /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15CF0CD2B9D7A9A0043589B /* SettingView.swift */; };
+		E15CF0D02B9D7ABE0043589B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15CF0CF2B9D7ABE0043589B /* LoginView.swift */; };
+		E15CF0D22B9D7B050043589B /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15CF0D12B9D7B050043589B /* AddView.swift */; };
+		E15CF0D42B9D7B380043589B /* IngredientCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15CF0D32B9D7B380043589B /* IngredientCellView.swift */; };
+		E15CF0D62B9E4C430043589B /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15CF0D52B9E4C430043589B /* RecipeCell.swift */; };
+		E15CF0D82B9E70800043589B /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15CF0D72B9E70800043589B /* RecipeDetailView.swift */; };
+		E15CF0DD2B9F75840043589B /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15CF0DC2B9F75840043589B /* EditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +31,18 @@
 		E15CF0B12B9D38060043589B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E15CF0B32B9D38070043589B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E15CF0B62B9D38070043589B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E15CF0C12B9D3A030043589B /* RecipeContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RecipeContainer.xcdatamodel; sourceTree = "<group>"; };
+		E15CF0C52B9D5A260043589B /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		E15CF0C72B9D5D8D0043589B /* DataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewModel.swift; sourceTree = "<group>"; };
+		E15CF0C92B9D74050043589B /* DebugView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugView.swift; sourceTree = "<group>"; };
+		E15CF0CB2B9D7A770043589B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E15CF0CD2B9D7A9A0043589B /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		E15CF0CF2B9D7ABE0043589B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E15CF0D12B9D7B050043589B /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		E15CF0D32B9D7B380043589B /* IngredientCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientCellView.swift; sourceTree = "<group>"; };
+		E15CF0D52B9E4C430043589B /* RecipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
+		E15CF0D72B9E70800043589B /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		E15CF0DC2B9F75840043589B /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +76,10 @@
 			isa = PBXGroup;
 			children = (
 				E15CF0AF2B9D38060043589B /* iRecipeApp.swift */,
+				E15CF0BE2B9D39A00043589B /* CoreData */,
+				E15CF0BF2B9D39E10043589B /* ViewModel */,
+				E15CF0BD2B9D398C0043589B /* Views */,
+				E15CF0C92B9D74050043589B /* DebugView.swift */,
 				E15CF0B12B9D38060043589B /* ContentView.swift */,
 				E15CF0B32B9D38070043589B /* Assets.xcassets */,
 				E15CF0B52B9D38070043589B /* Preview Content */,
@@ -65,6 +93,38 @@
 				E15CF0B62B9D38070043589B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E15CF0BD2B9D398C0043589B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E15CF0CB2B9D7A770043589B /* HomeView.swift */,
+				E15CF0CD2B9D7A9A0043589B /* SettingView.swift */,
+				E15CF0CF2B9D7ABE0043589B /* LoginView.swift */,
+				E15CF0D12B9D7B050043589B /* AddView.swift */,
+				E15CF0D32B9D7B380043589B /* IngredientCellView.swift */,
+				E15CF0D52B9E4C430043589B /* RecipeCell.swift */,
+				E15CF0D72B9E70800043589B /* RecipeDetailView.swift */,
+				E15CF0DC2B9F75840043589B /* EditView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E15CF0BE2B9D39A00043589B /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				E15CF0C02B9D3A030043589B /* RecipeContainer.xcdatamodeld */,
+				E15CF0C52B9D5A260043589B /* CoreDataManager.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		E15CF0BF2B9D39E10043589B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E15CF0C72B9D5D8D0043589B /* DataViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +197,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E15CF0D22B9D7B050043589B /* AddView.swift in Sources */,
+				E15CF0C62B9D5A260043589B /* CoreDataManager.swift in Sources */,
+				E15CF0D82B9E70800043589B /* RecipeDetailView.swift in Sources */,
+				E15CF0CC2B9D7A770043589B /* HomeView.swift in Sources */,
+				E15CF0DD2B9F75840043589B /* EditView.swift in Sources */,
+				E15CF0D62B9E4C430043589B /* RecipeCell.swift in Sources */,
+				E15CF0C82B9D5D8D0043589B /* DataViewModel.swift in Sources */,
+				E15CF0D02B9D7ABE0043589B /* LoginView.swift in Sources */,
+				E15CF0CA2B9D74050043589B /* DebugView.swift in Sources */,
 				E15CF0B22B9D38060043589B /* ContentView.swift in Sources */,
+				E15CF0CE2B9D7A9A0043589B /* SettingView.swift in Sources */,
 				E15CF0B02B9D38060043589B /* iRecipeApp.swift in Sources */,
+				E15CF0C22B9D3A030043589B /* RecipeContainer.xcdatamodeld in Sources */,
+				E15CF0D42B9D7B380043589B /* IngredientCellView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +416,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E15CF0C02B9D3A030043589B /* RecipeContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E15CF0C12B9D3A030043589B /* RecipeContainer.xcdatamodel */,
+			);
+			currentVersion = E15CF0C12B9D3A030043589B /* RecipeContainer.xcdatamodel */;
+			path = RecipeContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E15CF0A42B9D38060043589B /* Project object */;
 }

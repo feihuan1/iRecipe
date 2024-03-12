@@ -8,17 +8,34 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var vm = DataViewModel()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+//        DebugView(vm: vm) 
+        
+        
+        TabView{
+            HomeView(vm: vm)
+                .tabItem {
+                    Label("Home", systemImage: "house")
+                }
+            SettingView(vm: vm)
+                .tabItem {
+                    Label("Setting", systemImage: "gearshape")
+                }
+            DebugView(vm: vm)
+                .tabItem {
+                    Label("Debug", systemImage: "ant.circle")
+                }// comment out this
         }
-        .padding()
+        .accentColor(.black)
+        
+        
+        
     }
 }
 
 #Preview {
     ContentView()
 }
+
